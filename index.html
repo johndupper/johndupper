@@ -63,7 +63,7 @@
             </div>
             <div class="body-content" id="about-me">
                 <div id="bio">
-                    <p>i'm flattered you're here!<br><br>i'm a chicago-native living in atlanta. i spent the last several years at apple leading workshops and helping folks at the genius bar.<br> i'm an aspiring web developer. i'm building this website line by line with &lt;html&gt;, css and $(jquery). please check back often, this site will get better and better as i learn more!</p>
+                    <p>i'm flattered you're here!<br><br>i'm a chicago-native living in atlanta. i spent the last several years at apple leading workshops and helping folks at the genius bar.<br> i'm an aspiring web developer. i'm building this website line by line with html, css and javascript. please check back often, this site will get better and better as i learn more!</p>
                 </div>
                 <div>
                     <h3>i really enjoy <span id="rotate"></span>.</h3>
@@ -73,48 +73,80 @@
             
             <!-- code -->
             <div class="code body-content">
-                <div class="code-container">
-                    <div class="post">
-                        <h3 class="post-title">Hello World!</h3>
-                        <h4 class="post-date">September 19, 2016</h4>
-                        <p class="post-text">I'm going to be honest... This post is incredibly lackluster. I didn't build this website to write shitty posts, I promise. Just the opposite. I've built this website to apply the HTML, CSS &amp; jQuery I've been learning - but also to share my experience in learning programming step by step, concept by concept. Bear with me while I get this site up and running. I'll come back with witty and engaging posts about figuring out flexbox positioning, deciding whether to use pseudo-classes or jQuery to animate sections, and much much more.<br><br>Most importantly, thank you for being here. It means the world to me. Talk to you soon. : )
-                        </p><br>
-                        <div class="post-text back-to-top">collapse</div>
-                    </div>
-                </div>
+                <!-- johndupper.com -->
+                <section class="project">
+                    <h2 class="project-title">johndupper.com (this website)</h2>
+                    <a class="project-link" href="https://github.com/johndupper/johndupper" target="_blank">github project files</a>
+                    <p>i'm super proud of this website's evolution over the last several months. i've been able to implement a lot of what i'm learning to this site and i'm looking forward to making it even more bad-ass.</p>
+                    <table class="code info-table">
+                        <tr id="info-table-names">
+                            <th>language</th>
+                            <th>focus</th>
+                            <th>how</th>
+                        </tr>
+                        <tr>
+                            <td>html</td>
+                            <td><a class="project-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes" target="_blank">flexbox</a></td>
+                            <td>i really wanted to practice using a flexbox layout. it took some time to find the best way to dynamically display the contact links on multiple display widths, but i'm really happy with how it has come together</td>
+                        </tr>
+                        <tr>
+                            <td>jquery</td>
+                            <td><a class="project-link" href="https://api.jquery.com/click/" target="_blank">.click()</a>, <a class="project-link" href="https://api.jquery.com/fadein/" target="_blank">.fadeIn()</a>, <a class="project-link" href="https://api.jquery.com/hide/" target="_blank">.hide()</a></td>
+                            <td>each section of this site resides in the same html file. it may not be 'best practice' but it allows me to implement different methods and click events to show and hide entire sections of the page</td>
+                        </tr>
+                    </table>
+                </section>
+                
+                <!-- tic tac toe -->
+                <section class="project">
+                    <h2 class="project-title">tic tac toe</h2>
+                    <a class="project-link" href="https://github.com/johndupper/tic-tac-toe" target="_blank">github project files</a><br>
+                    <a class="project-link" href="https://johndupper.github.io/tic-tac-toe/" target="_blank">playable game</a>
+                    <p>javascript libraries are awesome, don't get me wrong... but it's important to know how to work with javascript on it's own as well, right? this game consists of purely javascript with no existing html. enjoy!</p>
+                    <table class="code info-table">
+                        <tr id="info-table-names">
+                            <th>language</th>
+                            <th>focus</th>
+                            <th>how</th>
+                        </tr>
+                        <tr>
+                            <td>javascript</td>
+                            <td><a class="project-link"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement" target="_blank">for()</a>,<br><a class="project-link"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else" target="_blank">if()</a></td>
+                            <td>for loops and if statements go together like peanut butter and jelly. enough said?</td>
+                        </tr>
+                        <tr>
+                            <td>jslint</td>
+                            <td><a class="project-link" href="http://www.jslint.com/help.html" target="_blank">jslint</a></td>
+                            <td>this game was my first go-around with a code quality tool. it took some time to figure out what it decided i wasn't formatting correctly, but after several "use strict" statements and variable declarations before assignments, i feel like my future code will thank me for this new approach to programming</td>
+                        </tr>
+                    </table>
+                </section>
             </div>
             <!-- code -->
             
             <!-- education -->
             <div class="education body-content">
-                <div class="learning">
-                    <p class="school-info">
-                        <span id="intro">When I decided to change careers, I didn't know where to start. I want to program, great. Now what?</span><br><br>
-                        <span id="intro2">You know that saying "You don't know what you don't know"? I didn't know what language to start with, what goals to set, where to turn for help. It was me and Google, bouncing around from one forum to another.</span>
-                    <ul>
-                        <li><p>"You should start with Python"</p></li>
-                        <li><p>"Everyone should start with C"</p></li>
-                        <li><p>"How about Java?"</p></li>
-                    </ul>
-                    My head was spinning. Did I make a good decision? Do I really know what I want? Was this a good idea? I decided to stay close to home, close to what I "knew". I had spent three years around iOS and OSX at Apple - what sorcery makes that work? The answer lead me to...</p>
-                
-                <h3 class="school-name">Mobile Makers Academy</h3>
-                <p class="school-info">I quickly realized I wasn’t creating a sustainable foundation in programming. What I needed was structured content, focused learning and someone to turn to when I felt like giving up. I found the perfect place: Mobile Makers Academy.</p>
-                <div class="callout">
-                    <span>“Mobile Makers Academy is an intense 8-week iOS Bootcamp that prepares beginners for careers as iOS developers. Online, or on-site in Chicago.”</span>
-                </div>
-                <p>I packed my bags and headed back to the Windy City. I spent the next two months absorbing everything I could: object-oriented programming, variables, objects, data tables, APIs, Xcode, Git, and more. The instructional staff (Don, Fiaz, Ben) did an incredible job of being stewards of learning. Upon graduation, I was hooked. I knew the wild west of programming was right for me.<br><br>I spent the next several months as part of their instructional staff. I loved being able to support others who made the decision to pursue programming. Explaining concepts to others reinforced what I had just learned and my learning expanded under the mentorship of my fellow instructors.</p>
-            </div>
-            <div class="learning">
-                <h3 class="school-name">What Next?</h3>
-                <p class="school-info">After working on some personal projects I decided to level-up my understanding and tackle something new. I found an interesting statistic online:</p>
-                <div class="callout">
-                    <span>"Employment of web developers is projected to grow 27 percent from 2014 to 2024, much faster than the average for all occupations. Demand will be driven by the growing popularity of mobile devices and ecommerce."</span>
-                </div>
-                <p>That’s a lot of momentum! Web Dev - here I come!</p>
-            </div>
+                <p class="school-info">
+                    <span id="bold">when i decided to change careers, i didn't know where to start. i want to program, great. now what?</span><br><br>you know that saying "you don't know what you don't know"? i didn't know what language to start with, what goals to set, where to turn for help. it was me and google, bouncing around from one forum to another.</p>
+                <ul>
+                    <li>"<a class="project-link" href="http://blog.trinket.io/why-python/" target="_blank">you should start with python</a>"</li>
+                    <li>"<a class="project-link" href="http://www.streetdirectory.com/travel_guide/114363/programming/10_reasons___why_c_should_be_your_first_programming_language.html" target="_blank">everyone needs to learn c</a>"</li>
+                    <li>"<a class="project-link" href="http://www.skilledup.com/articles/4-reasons-learn-ruby-first-programming-language" target="_blank">how about ruby?</a>"</li>
+                </ul>
+                <p>my head was spinning. did i make a good decision? do i really know what i want? was this a good idea? i reached out to my friend <a class="project-link" href="https://www.linkedin.com/in/kyle-bendelow-7b725bb8" target="_blank">kyle bendelow</a> - a brave pioneer who took the leap from retail to code a few months before i did and who, with encouragement, helped me to do the same. he had attended an ios bootcamp (and loved it) called:</p>
 
+            <h3 class="school-name">mobile makers academy</h3>
+            <p>i packed my bags and headed back to the windy city. i spent the next two months absorbing everything i could: object-oriented programming, variables, objects, data tables, apis, xcode, git, and more. the instructional staff (<a class="project-link" href="https://www.linkedin.com/in/donbora" target="_blank">don</a>, <a class="project-link" href="https://www.linkedin.com/in/fiaz-sami-b36700" target="_blank">fiaz</a>, and <a class="project-link" href="https://www.linkedin.com/in/benbueltmann" target="_blank">ben</a>) did an incredible job of being stewards of learning. upon graduation, i was hooked. i knew the wild west of programming was right for me.<br><br>i spent the next several months as part of their instructional staff. i loved being able to support others who made the decision to pursue programming. explaining concepts to others reinforced what i had just learned and my learning expanded under the mentorship of my fellow instructors.</p>
+
+            <h3 class="school-name">what next?</h3>
+            <p class="school-info">after working on some personal projects i decided to level-up my understanding and tackle something new. i found an interesting statistic online:</p>
+            <div class="callout">
+                <span>"employment of web developers is projected to grow 27 percent from 2014 to 2024, much faster than the average for all occupations. demand will be driven by the growing popularity of mobile devices and ecommerce."</span><br>
+                <a class="project-link" href="http://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm" target="_blank">bureau of labor statistics</a>
             </div>
+            <p>i decided to take a stab at web development - every company has a website, right? who maintains it all?</p>
+            <p>i had such a great experience at mobile makers that i started looking into web development bootcamps. now living in atlanta, i saw a name that sounded familiar: <a class="project-link" href="https://generalassemb.ly/education/web-development-immersive" target="_blank">general assembly</a>.</p>
+        </div>
             <!-- education -->
 
         </div>
