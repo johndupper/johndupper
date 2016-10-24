@@ -17,14 +17,6 @@
     -ms-user-select: none;       /* Internet Explorer/Edge */
 }
 
-/* font */
-
-#about-me,
-#bio,
-.post-text {
-    font-size: 1.1rem;
-}
-
 /* margin */
 
 #about-me,
@@ -135,61 +127,45 @@ a:hover {
     display: none;
 }
 
-.code-container {
-    width: 85%;
-    margin: auto;
+.project {
+    width: 90%;
+    margin: 0 auto 2.5em;
 }
 
-.post {
-    position: relative;
-}
-
-.post-title {
+.project-title {
     margin-bottom: 0;
-    font-size: 1.75rem;
-    cursor: pointer;
 }
 
-.post-date {
-    margin: 0;
-    font-size: 1rem;
+.project-link {
+    color: seagreen;
 }
 
-.post-text {
-    display: none;
-    margin: 0;
-    padding: 0.75rem;
+.info-table {
+    width: 100%;
 }
 
-.back-to-top {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-decoration: underline;
-    cursor: pointer;
+tr, th, td {
+    padding: 0.25em;
+    border: 1px solid lightgrey;
+    text-align: center;
 }
 
     /* education */
 
 .education {
     display: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.learning {
-    width: 85%;
+#bold {
+    font-weight: 900;
 }
 
 .school-name {
+    margin: 0;
     font-size: 1.3rem;
     text-align: center;
-}
-
-#intro {
-    font-weight: bold;
-}
-
-#intro2 {
-    margin-top: 0rem;
 }
 
 .callout {
@@ -262,11 +238,19 @@ a:hover {
         text-align: center;
     }
 }
-
+    /* contact resizing */
 @media (max-width: 490px) {
-    
     .contact-link {
-        width: 120px;
-        padding: 0.4em;
+        width: 210px;
+    }
+}
+@media (max-width: 460px) {
+    .contact-link {
+        width: 195px;
+    }
+}
+@media (max-width: 420px) {
+    .contact-link {
+        width: 185px;
     }
 }
