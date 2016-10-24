@@ -234,6 +234,22 @@ a:hover {
         margin: 0 auto;
     }
     
+    /* contact */
+
+    #contact-list {
+        flex-wrap: wrap;
+    }
+    
+    .contact-list-item {
+        justify-content: space-around;
+    }
+    
+    .contact-link {
+        width: 90px;
+        padding: 0.4em;
+    }
+
+    
     /* about me */
 
     .about-me span {
