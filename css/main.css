@@ -201,7 +201,7 @@ a:hover {
 }
 
     /* media */
-@media (max-width: 550px) {
+@media (max-width: 540px) {
     
     /* navigation */
 
@@ -245,7 +245,7 @@ a:hover {
     }
     
     .contact-link {
-        width: 90px;
+        width: 150px;
         padding: 0.4em;
     }
 
@@ -260,5 +260,13 @@ a:hover {
     
     .post {
         text-align: center;
+    }
+}
+
+@media (max-width: 490px) {
+    
+    .contact-link {
+        width: 120px;
+        padding: 0.4em;
     }
 }
