@@ -94,18 +94,17 @@
     padding: 0;
     display: flex;
     list-style: none;
-    justify-content: space-between;
-}
-
-.contact-link {
-    display: block;
-    text-decoration: none;
-    color: white;
 }
 
 .contact-list-item {
     flex-grow: 1;
     text-align: center;
+    color: white;
+}
+
+.contact-link {
+    display: block;
+    text-decoration: none;
     color: white;
 }
 
