@@ -1,0 +1,249 @@
+    /* site-wide */
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#entire-page {
+    display: none;
+}
+
+#navigation,
+.about-me span {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+}
+
+/* font */
+
+#about-me,
+#bio,
+.post-text {
+    font-size: 1.1rem;
+}
+
+/* margin */
+
+#about-me,
+.image,
+.learning,
+.callout {
+    margin: 0 auto;
+}
+
+/* image */
+
+.image {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#vail,
+#tuxedo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#image-about {
+    display: none;
+}
+
+
+    /* navigation */
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+#navigation-name {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+#navigation-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-list-item {
+    padding: 1rem;
+}
+
+.navigation-list-item:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+    /* contact */
+
+#contact-bar {
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+#contact-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.contact-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-list-item {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+}
+
+#contact-list-item:hover,
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+    /* about me */
+
+#about-me {
+    display: none;
+    width: 90%;
+}
+
+#rotate {
+    margin: 0.25rem;
+    padding: 0 1.125rem;
+    border-bottom: 1px dotted black;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+    /* code */
+
+.code {
+    display: none;
+}
+
+.code-container {
+    width: 85%;
+    margin: auto;
+}
+
+.post {
+    position: relative;
+}
+
+.post-title {
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.post-date {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.post-text {
+    display: none;
+    margin: 0;
+    padding: 0.75rem;
+}
+
+.back-to-top {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    /* education */
+
+.education {
+    display: none;
+}
+
+.learning {
+    width: 85%;
+}
+
+.school-name {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+#intro2 {
+    margin-top: 0rem;
+}
+
+.callout {
+    width: 80%;
+    padding: 0.5rem;
+    background-color: lightgray;
+    text-align: center;
+    font-style: italic;
+}
+
+    /* media */
+@media (max-width: 550px) {
+    
+    /* navigation */
+
+    #navigation {
+        flex-direction: column;
+    }
+    
+    #navigation-name {
+        margin: 0.25rem 0 0;
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    
+    #navigation-list {
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navigation-list-item {
+        padding: 0.25rem;
+        flex-grow: 1;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .image {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    /* about me */
+
+    .about-me span {
+        font-size: 2rem;
+    }
+    
+    /* code */
+    
+    .post {
+        text-align: center;
+    }
+}
