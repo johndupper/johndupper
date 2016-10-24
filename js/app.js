@@ -37,7 +37,6 @@ function change() {
 // code
 $('#nav-code').click(function() {
     $('.body-content').hide();
-    $('.post-text').hide();
     $('.code').fadeIn(500);
 });
 
