@@ -246,11 +246,11 @@ tr, th, td {
 }
 @media (max-width: 460px) {
     .contact-link {
-        width: 195px;
+        width: 165px;
     }
 }
 @media (max-width: 420px) {
     .contact-link {
-        width: 170px;
+        width: 140px;
     }
 }
