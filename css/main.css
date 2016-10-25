@@ -251,6 +251,6 @@ tr, th, td {
 }
 @media (max-width: 420px) {
     .contact-link {
-        width: 140px;
+        width: 155px;
     }
 }
